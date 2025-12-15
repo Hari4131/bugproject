@@ -1,0 +1,181 @@
+[
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.HomeController",
+    "Method": "EntityType",
+    "RelativePath": "api/Home/EntityType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.HomeController",
+    "Method": "Login",
+    "RelativePath": "api/Home/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Ticket_ManagementAPI.Dto.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.HomeController",
+    "Method": "Register",
+    "RelativePath": "api/Home/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Ticket_ManagementAPI.Dto.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.HomeController",
+    "Method": "TicketLogin",
+    "RelativePath": "api/Home/TicketLogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginTicket",
+        "Type": "Ticket_ManagementAPI.Dto.LoginTicket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "GetAllTickets",
+    "RelativePath": "api/Ticket/GetAllTickets",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "GetAllTicketsForClient",
+    "RelativePath": "api/Ticket/GetAllTicketsForClient",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tic_ClientId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "GetAllTicketStatusDD",
+    "RelativePath": "api/Ticket/GetAllTicketStatusDD",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "GetTicketsByStatusId",
+    "RelativePath": "api/Ticket/GetTicketsByStatusId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bug_testsDto",
+        "Type": "Ticket_ManagementAPI.Dto.TicketsDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "GetTicketsByUniqueId",
+    "RelativePath": "api/Ticket/GetTicketsByUniqueId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "bug_testUniqueId",
+        "Type": "Ticket_ManagementAPI.Dto.TicketUniqueId",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "RegisterTicket",
+    "RelativePath": "api/Ticket/RegisterTicket",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerTicketDto",
+        "Type": "Ticket_ManagementAPI.Dto.RegisterTicketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.TicketController",
+    "Method": "UpdateTicket",
+    "RelativePath": "api/Ticket/UpdateTicket",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateTicketDto",
+        "Type": "Ticket_ManagementAPI.Dto.UpdateTicketDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ticket_ManagementAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Ticket_ManagementAPI.WeatherForecast, Ticket_ManagementAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
